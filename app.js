@@ -32,7 +32,7 @@ async function main() {
 }
 
 app.get("/", (req, res) => {
-  return res.redirect("/listings");
+  return res.send("I'm root");
 });
 
 //index route
